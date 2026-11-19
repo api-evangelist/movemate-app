@@ -1,4 +1,4 @@
-# movemate-app
+# MoveMate
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-movemate-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://movemate.app/
+MoveMate is an AI‑powered workout tracker and gym log designed to integrate with ChatGPT, Claude, and other large language models. It offers personalized workout plans, AI‑driven insights, and detailed fitness data tracking, helping users achieve their health goals faster. The platform provides seamless connections to multiple AI assistants, a modern UI, and privacy‑focused policies for handling personal and health information.
+
+**Areas:** Fitness · AI · Workout · Health · Mobile
+
+## MoveMate on APIs.io
+
+Everything profiled for MoveMate is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/movemate-app/](https://apis.io/providers/movemate-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [MoveMate Health API](https://apis.io/apis/movemate-app/movemate-app-health-api/) — Unauthenticated liveness
+- [MoveMate MCP API](https://apis.io/apis/movemate-app/movemate-app-mcp-api/) — Streamable HTTP JSON-RPC transport
+- [MoveMate OAuth API](https://apis.io/apis/movemate-app/movemate-app-oauth-api/) — RFC 8414 / RFC 9728 discovery, used by MCP clients before the first authenticated call.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [MoveMate Agentic Access](https://apis.io/agentic-access/movemate-app/movemate-app-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [JsonRpcRequest](https://apis.io/schemas/movemate-app/movemate-app-json-rpc-request/)
+- [JsonRpcResponse](https://apis.io/schemas/movemate-app/movemate-app-json-rpc-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Movemate App Context](https://apis.io/jsonld/movemate-app/movemate-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MoveMate API Rules](https://apis.io/rules/movemate-app/movemate-app-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [MoveMate Authentication](https://apis.io/security/movemate-app/movemate-app-authentication/)
+- [MoveMate Domain Security](https://apis.io/security/movemate-app/movemate-app-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [MoveMate Scopes](https://apis.io/scopes/movemate-app/movemate-app-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://movemate.app/)
+- [Documentation](https://movemate.app/openapi.json)
+- [Terms of service](https://movemate.app/terms-of-use)
+- [Privacy policy](https://movemate.app/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 40.8** — developing · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 54.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 27.9 |
+| Access clarity | 17.0 |
+
+**Agent readiness 48.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 26.5** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/movemate-app/](https://apis.io/providers/movemate-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MoveMate: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/movemate-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
